@@ -2,7 +2,7 @@
 
 ### Capitulo 1 - Introdução ao Linux e Configuração Inicial
 
-##### Instalação e configuração
+#### Instalação e configuração
 
 Primeiro faça download do **VMware Workstation Player** é do ISO do **Ubuntu 20.04 LTS**.
 
@@ -35,7 +35,7 @@ clicar em "download" da versão mais recente
 
 ### Capitulo 2 - Conhecendo o Terminal Linux e seus Atalhos
 
-##### Conhecendo o terminal e primeiros comandos
+#### Conhecendo o terminal e primeiros comandos
 
 
 
@@ -92,7 +92,7 @@ sudo apt install xcowsay
 
 ### Capitulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
 
-##### Lidando com arquivos .txt
+#### Lidando com arquivos .txt
 
 Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 
