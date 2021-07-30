@@ -18,7 +18,8 @@ Instalamos o VMware Workstation Player. Ele é um utilitário ideal para executa
 
 
 
-
+<br />
+<br />
 Outra Forma de Baixar o Ubuntu, caso o Link acima não Funcione
 
 entrar no endereço: ubuntu.com
@@ -29,7 +30,8 @@ clicar no link "ubuntu desktop"
 
 clicar em "download" da versão mais recente
 
-
+<br />
+<br />
 
 
 
@@ -74,7 +76,8 @@ clicar em "download" da versão mais recente
 sudo apt install xcowsay
 ```
 
- 
+ <br />
+<br />
 
 
 
@@ -88,7 +91,8 @@ sudo apt install xcowsay
 |         Busca um comando recente         |      CTRL + R       |
 |             Sai do terminal              |        exit         |
 
-
+<br />
+<br />
 
 ### Capitulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
 
@@ -114,7 +118,8 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 
 
 
-
+<br />
+<br />
 
 |    PARA VISUALIZAR UM AQRUIVO DE TXT     |          COMANDOS          |
 | :--------------------------------------: | :------------------------: |
@@ -123,7 +128,8 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 | Para visualizar apenas as 10 primeiras linhas de um arquivo txt | head (nome do arquivo.txt) |
 | Para visualizar apenas as 10 ultimas linhas de um arquivo txt | tail (nome do arquivo.txt) |
 
-
+<br />
+<br />
 
 | PROPRIEDADES DO ARQUIVO .TXT E COMANDOS DE DATAS |                 COMANDOS                 |
 | :--------------------------------------: | :--------------------------------------: |
@@ -137,7 +143,8 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 | Para procurar a palavra **palavras** nas 10 ultimas linha do arquivo.txt | tail (nome do arquivo.txt) \| grep palavras |
 
 
-
+<br />
+<br />
 
 
 |           PAGINAÇÃO DE TEXTOS            |                 COMANDOS                 |
