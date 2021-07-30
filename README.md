@@ -109,9 +109,9 @@ sudo apt install xcowsay
 #### Lidando com arquivos .txt
 <br />
 <br />
+
 Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.txt)**
-
-
+<br />
 
 |     EDITOR DE TEXTO DO LINUX - NANO      | COMANDO DENTRO DO NANO |
 | :--------------------------------------: | :--------------------: |
@@ -177,8 +177,7 @@ Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.tx
 <br />
 <br />
 
-Diretórios importantes
-
+**Diretórios importantes**
 <br />
 
 |                  FUNÇÃO                  | DIRETÓRIO |
@@ -203,10 +202,9 @@ Diretórios importantes
 <br />
 <br />
 
-
-
 #### Praticando no terminal os comandos de diretórios e sistema
 <br />
+
 
 |                  FUNÇÃO                  | COMANDOS DENTRO DO TERMINAL |
 | :--------------------------------------: | :-----------------: |
