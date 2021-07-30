@@ -4,14 +4,14 @@
 
 ##### Instalação e configuração
 
-Primeiro faça download do **VMware Workstation Player** é do ISO do **Ubuntu 20.04 LTS**.
+Primeiro faça o download do **VMware Workstation Player** e do ISO do **Ubuntu 20.04 LTS**.
 
 |           SOFTWARE           |                 LINKS                    |
 | :----------------------------: | :---------------------------------------: |
 | VMWare Workstation Player 16 | https://www.vmware.com/go/getplayer-win  |
 | Ubuntu 20.04 LTS             | https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64 |
 
-Instale o VMware Workstation Player. Ele é um utilitário ideal para executar uma única máquina virtual em um PC Windows ou Linux. Ao termino da instalação e emule o Ubuntu. 
+Instale o VMware Workstation Player. Ele é um utilitário ideal para executar uma única máquina virtual em um PC Windows ou Linux. Ao terminar a instalação emule o Ubuntu com o programa. 
 
 ​                                                                            `*Escolher no minímo 40GB de espaço para a maquina virtual`
 
