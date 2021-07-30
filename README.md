@@ -44,12 +44,13 @@ Clique em "**Download**" da versão mais recente
 ### Capitulo 2 - Conhecendo o Terminal Linux e seus Atalhos
 
 ##### Conhecendo o terminal e primeiros comandos
+<br />
 
+Atalho para abrir o Terminal >> **CTRL +ALT + T**
+<br />
 
-
-|                  FUNÇÃO                  |                 COMANDOS                 |
+|                  FUNÇÃO                  |         COMANDOS DENTRO DO TERMINAL                 |
 | :--------------------------------------: | :--------------------------------------: |
-|           Acessando o Terminal           |              CTRL +ALT + T               |
 |    Para voltar para diretório pessoal    |                   cd ~                   |
 | Para informar o caminho do local onde estamos logado |                   pwd                    |
 | Para listar os arquivos e pastas desse loca |                    ls                    |
@@ -130,7 +131,7 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 <br />
 <br />
 
-|    PARA VISUALIZAR UM AQRUIVO DE TXT     |          COMANDOS          |
+|    PARA VISUALIZAR UM AQRUIVO DE TXT     |         COMANDOS DENTRO DO TERMINAL          |
 | :--------------------------------------: | :------------------------: |
 | Para visualizar um arquivo de txt sem abrir | cat (nome do arquivo.txt)  |
 | Para visualizar o arquivo de txt, porém com as linhas invertidas |  tac (nome do arquivo.txt  |
@@ -140,7 +141,7 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 <br />
 <br />
 
-| PROPRIEDADES DO ARQUIVO .TXT E COMANDOS DE DATAS |                 COMANDOS                 |
+| PROPRIEDADES DO ARQUIVO .TXT E COMANDOS DE DATAS |                 COMANDOS DENTRO DO TERMINAL                 |
 | :--------------------------------------: | :--------------------------------------: |
 | Comando para adicionar uma informação dentro de um novo arquivo | tail (nome do arquivo.txt) > (nome do arquivo.txt) |
 |  Cria uma informação dentro do arquivo   |                   (>)                    |
@@ -156,7 +157,7 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 <br />
 <br />
 
-|           PAGINAÇÃO DE TEXTOS            |                 COMANDOS                 |
+|           PAGINAÇÃO DE TEXTOS            |                 COMANDOS DENTRO DO TERMINAL                 |
 | :--------------------------------------: | :--------------------------------------: |
 | Para facilitar a leitura de um arquivo muito grande | more ou less ( cat (nome do arquivo.txt) \| more (Para parar de exibir bastar apertar CTRL + Z |
 | Envia a saída de um comando para entrada de outro comando permitindo a execução de dois comandos |                    \|                    |
@@ -203,7 +204,7 @@ Diretórios importantes
 
 
 
-|                  FUNÇÃO                  | COMANDO NO TERMINAL |
+|                  FUNÇÃO                  | COMANDOS DENTRO DO TERMINAL |
 | :--------------------------------------: | :-----------------: |
 |     Ver informações do processamento     |  cat /proc/cpuinfo  |
 |      Ver informações sobre memoria       |  cat /proc/meminfo  |
