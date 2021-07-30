@@ -1,6 +1,6 @@
 # Linux -  Introdução ao Sistema Operacional
 
-### Capitulo 1 - Introdução ao Linux e Configuração Inicial
+### Capítulo 1 - Introdução ao Linux e Configuração Inicial
 
 #### Instalação e configuração
 
@@ -20,6 +20,8 @@ Instalamos o VMware Workstation Player. Ele é um utilitário ideal para executa
 
 <br />
 <br />
+<br />
+<br />
 Outra Forma de Baixar o Ubuntu, caso o Link acima não Funcione
 
 entrar no endereço: ubuntu.com
@@ -32,10 +34,12 @@ clicar em "download" da versão mais recente
 
 <br />
 <br />
+<br />
+<br />
 
 
 
-### Capitulo 2 - Conhecendo o Terminal Linux e seus Atalhos
+### Capítulo 2 - Conhecendo o Terminal Linux e seus Atalhos
 
 #### Conhecendo o terminal e primeiros comandos
 
@@ -93,8 +97,10 @@ sudo apt install xcowsay
 
 <br />
 <br />
+<br />
+<br />
 
-### Capitulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
+### Capítulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
 
 #### Lidando com arquivos .txt
 
@@ -155,3 +161,68 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 | Usado para que dois comandos só sejam executados se o primeiro for executado com sucesso |                    &&                    |
 | Usado para informar o que faz cada comando. ( whatis ls) (whatis find) |                  whatis                  |
 
+
+
+<br />
+<br />
+<br />
+<br />
+
+### Capítulo 4 - Diretórios do Linux e Comandos de Sistema
+
+#### Apresentação dos comandos de diretórios do linux
+
+Diretórios importantes
+
+|                  FUNÇÃO                  | DIRETÓRIO |
+| :--------------------------------------: | :-------: |
+|     Binários principais dos usuários     |   /bin/   |
+|       Arquivos do sistema de Boot        |  /boot/   |
+|         Arquivos de dispositivos         |   /dev/   |
+|   Arquivos de configurações do sistema   |   /etc/   |
+| Diretório dos usuários comuns do sistema |  /home/   |
+| Bibliotecas essenciais do sistema e dos módulos do kernel |   /lib/   |
+|   Diretório de montagem e dispositivos   |  /media/  |
+| Diretório de montagem de dispostivos (Alternativo do /media/) |   /mnt/   |
+| Instalação de programas não oficiais da distribuição por conta do usuário |   /opt/   |
+| Armazena arquivos executáveis que representam comandos administrativos |  /sbin/   |
+| Diretório para dados de serviços fornecidos pelo sistema |   /srv/   |
+|   Diretório para arquivos temporários    |   /tmp/   |
+| Segunda hierarquia do sistema, onde ficam os usuários comuns do sistema e programas. |   /usr/   |
+| Diretório com arquivos variaveis gerados pleos programas do sistema |   /var/   |
+|        Diretório do usuário root         |  /root/   |
+| Diretório virtual controlado pelo Kernel |  /proc/   |
+
+<br />
+<br />
+
+
+
+#### Praticando no terminal os comandos de diretórios e sistema
+
+
+
+|                  FUNÇÃO                  | COMANDO NO TERMINAL |
+| :--------------------------------------: | :-----------------: |
+|     Ver informações do processamento     |  cat /proc/cpuinfo  |
+|      Ver informações sobre memoria       |  cat /proc/meminfo  |
+| Ver informações sobre placas conectadas no computador |        lspci        |
+|   Ver informações de dispositivos usb    |        lsusb        |
+| Ver a arquitetura do sistema que você está usando |        arch         |
+|           Ver o nome do Kernel           |        uname        |
+|          Ver a versão do Kernel          |      uname -r       |
+|       Ver a arquitetura do Kernel        |      uname -m       |
+| Mostra saída de memoria física e memória swape |        free         |
+| Ver todo o diretório pessoal e quando ele usa de espaço de hd |       du -h ~       |
+|     Ver todos os usuários do sistema     |   cat /etc/passwd   |
+|           Reiniciar o sistema            |       reboot        |
+|            Desligar o sistema            |   shutdown -h now   |
+|           Reiniciar o sistema            |     shutdown -r     |
+|   Ver todas as informações sobre o CPU   |        lscpu        |
+| Ver uma lista de todos os hardwares que o sistema encontrar |        lshw         |
+|      Mostrar o caminho de hardwares      |     lshw -short     |
+
+<br />
+<br />
+<br />
+<br />
