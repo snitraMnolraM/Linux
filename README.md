@@ -226,3 +226,69 @@ Diretórios importantes
 <br />
 <br />
 <br />
+
+### Capitulo 5 - Fundamentos de Rede e Comandos de Rede
+
+#### O que são Redes, Protocolos e Interfaces de Rede
+
+<br />
+
+- **O que é Rede ?**
+
+  Rede é um conjunto de equipamentos interligados de maneira a trocarem informações e compartilham recursos.
+
+  ​
+
+  - Rede Wan
+
+    Wide Area Network ou World Area Network é uma rede geograficamente distribuída
+
+    ​
+
+  - Rede Man
+
+    Metropolitan Area Network é uma rede metropolitana que interligam várias redes locais
+
+    ​
+
+  - Rede Lan
+
+    Local Area Network é uma rede local de uma forma geral em um único prédio ou campus
+
+<br />
+
+- **Protocolos**
+
+  Protocolo é a "linguagem" usada pelos dispositivos de uma rede de modo que eles consigam se entender. Existem vários protocolos
+  
+
+  - Protocolo IP
+
+    Protocolo de Internet - Endereço IP - Número que identificam seu computador em uma rede
+
+    ​
+
+  - Protocolo ICMP (Internet Control Message Protocol)
+
+    Tem por objetivo prover mensagens de controle na comunicação entre nós
+
+    ​
+
+  - DNS (Domain Name Server)
+
+    Esse protocolo de aplicação tem por função identificar endereços IPs e manter uma tabela com os endereços dos caminhos de algumas redes
+
+<br />
+
+
+
+- **Interface de Rede**
+
+  Interface de rede é um software e/ou hardware que faz a comunicação em uma rede de computadores.
+  As Interfaces de rede no linux estão localizadas no diretório /dev e a maioria é criada dinamicamente pelos softwares quando são requisitadas.
+
+  ​
+
+  - Interface de Rede (Loopback)
+
+    A interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo, com ela, você pode testar vários programas de rede sem interferir em sua rede. O endereço padrão para o loopback é IP 127.0.0.1
