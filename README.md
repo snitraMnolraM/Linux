@@ -6,8 +6,8 @@
 
 Primeiro faça download do **VMware Workstation Player** é do ISO do **Ubuntu 20.04 LTS**.
 
-| SOFTWARE                     | LINKS                                    |
-| ---------------------------- | :--------------------------------------- |
+|           SOFTWARE           |                 LINKS                    |
+| :----------------------------: | :---------------------------------------: |
 | VMWare Workstation Player 16 | https://www.vmware.com/go/getplayer-win  |
 | Ubuntu 20.04 LTS             | https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64 |
 
@@ -88,7 +88,7 @@ sudo apt install xcowsay
 
 
 
-|                 FUNÇÕES                  | Atalhos do Terminal |
+|                 FUNÇÕES                  | ATALHOS DO TERMINAL |
 | :--------------------------------------: | :-----------------: |
 | Cancela o comando atual em funcionamento |      CTRL + C       |
 | Pausa o comando atual, em primeiro plano ou segundo plano |      CTRL + Z       |
@@ -107,7 +107,8 @@ sudo apt install xcowsay
 ### Capitulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
 
 ##### Lidando com arquivos .txt
-
+<br />
+<br />
 Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 
 
@@ -131,7 +132,7 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 <br />
 <br />
 
-|    PARA VISUALIZAR UM AQRUIVO DE TXT     |         COMANDOS DENTRO DO TERMINAL          |
+|    PARA VISUALIZAR UM ARQUIVO DE TXT     |         COMANDOS DENTRO DO TERMINAL          |
 | :--------------------------------------: | :------------------------: |
 | Para visualizar um arquivo de txt sem abrir | cat (nome do arquivo.txt)  |
 | Para visualizar o arquivo de txt, porém com as linhas invertidas |  tac (nome do arquivo.txt  |
@@ -173,7 +174,8 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 ### Capitulo 4 - Diretórios do Linux e Comandos de Sistema
 
 #### Apresentação dos comandos de diretórios do linux
-
+<br />
+<br />
 Diretórios importantes
 
 |                  FUNÇÃO                  | DIRETÓRIO |
@@ -201,7 +203,8 @@ Diretórios importantes
 
 
 #### Praticando no terminal os comandos de diretórios e sistema
-
+<br />
+<br />
 
 
 |                  FUNÇÃO                  | COMANDOS DENTRO DO TERMINAL |
