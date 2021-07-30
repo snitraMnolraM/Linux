@@ -1,8 +1,8 @@
 # Linux -  Introdução ao Sistema Operacional
 
-### Capítulo 1 - Introdução ao Linux e Configuração Inicial
+### Capitulo 1 - Introdução ao Linux e Configuração Inicial
 
-#### Instalação e configuração
+##### Instalação e configuração
 
 Primeiro faça download do **VMware Workstation Player** é do ISO do **Ubuntu 20.04 LTS**.
 
@@ -11,37 +11,39 @@ Primeiro faça download do **VMware Workstation Player** é do ISO do **Ubuntu 2
 | VMWare Workstation Player 16 | https://www.vmware.com/go/getplayer-win  |
 | Ubuntu 20.04 LTS             | https://ubuntu.com/download/desktop/thank-you?version=20.04.2.0&architecture=amd64 |
 
-Instalamos o VMware Workstation Player. Ele é um utilitário ideal para executar uma única máquina virtual em um PC Windows ou Linux. Ao termino da instalação e emule o Ubuntu. 
+Instale o VMware Workstation Player. Ele é um utilitário ideal para executar uma única máquina virtual em um PC Windows ou Linux. Ao termino da instalação e emule o Ubuntu. 
 
 ​                                                                            `*Escolher no minímo 40GB de espaço para a maquina virtual`
 
 
 
-
-<br />
-<br />
-<br />
-<br />
-Outra Forma de Baixar o Ubuntu, caso o Link acima não Funcione
-
-entrar no endereço: ubuntu.com
-
-clicar na aba "downloads"
-
-clicar no link "ubuntu desktop"
-
-clicar em "download" da versão mais recente
-
 <br />
 <br />
 <br />
 <br />
 
+#### Outra Forma de Baixar o Ubuntu 
+
+ `caso o Link acima não Funcione`
+
+Entre no endereço: [ubuntu.com]()
+
+Clique na aba "Downloads"
+
+Clique no link "**ubuntu desktop**"
+
+Clique em "**Download**" da versão mais recente
 
 
-### Capítulo 2 - Conhecendo o Terminal Linux e seus Atalhos
 
-#### Conhecendo o terminal e primeiros comandos
+<br />
+<br />
+<br />
+<br />
+
+### Capitulo 2 - Conhecendo o Terminal Linux e seus Atalhos
+
+##### Conhecendo o terminal e primeiros comandos
 
 
 
@@ -97,12 +99,13 @@ sudo apt install xcowsay
 
 <br />
 <br />
+
 <br />
 <br />
 
-### Capítulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
+### Capitulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
 
-#### Lidando com arquivos .txt
+##### Lidando com arquivos .txt
 
 Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 
@@ -149,9 +152,9 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 | Para procurar a palavra **palavras** nas 10 ultimas linha do arquivo.txt | tail (nome do arquivo.txt) \| grep palavras |
 
 
-<br />
-<br />
 
+<br />
+<br />
 
 |           PAGINAÇÃO DE TEXTOS            |                 COMANDOS                 |
 | :--------------------------------------: | :--------------------------------------: |
@@ -161,14 +164,12 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 | Usado para que dois comandos só sejam executados se o primeiro for executado com sucesso |                    &&                    |
 | Usado para informar o que faz cada comando. ( whatis ls) (whatis find) |                  whatis                  |
 
-
-
 <br />
 <br />
 <br />
 <br />
 
-### Capítulo 4 - Diretórios do Linux e Comandos de Sistema
+### Capitulo 4 - Diretórios do Linux e Comandos de Sistema
 
 #### Apresentação dos comandos de diretórios do linux
 
@@ -227,6 +228,8 @@ Diretórios importantes
 <br />
 <br />
 
+
+
 ### Capitulo 5 - Fundamentos de Rede e Comandos de Rede
 
 #### O que são Redes, Protocolos e Interfaces de Rede
@@ -256,11 +259,14 @@ Diretórios importantes
     Local Area Network é uma rede local de uma forma geral em um único prédio ou campus
 
 <br />
+<br />
 
-- **Protocolos**
+- **Protocolos**	
 
-  Protocolo é a "linguagem" usada pelos dispositivos de uma rede de modo que eles consigam se entender. Existem vários protocolos
-  
+  Protocolo é a "linguagem" usada pelos dispositivos de uma rede de modo que eles consigam se 	entender. Existem vários protocolos
+
+
+  ​
 
   - Protocolo IP
 
@@ -278,6 +284,7 @@ Diretórios importantes
 
     Esse protocolo de aplicação tem por função identificar endereços IPs e manter uma tabela com os endereços dos caminhos de algumas redes
 
+<br />
 <br />
 
 
