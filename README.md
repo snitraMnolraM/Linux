@@ -77,7 +77,7 @@ Atalho para abrir o Terminal >> **CTRL +ALT + T**
 |        Para completar uma palavra        |                tecla TAB                 |
 |      Para limpar a tela do terminal      |                  clear                   |
 
-`*Para rodar comandos como administrator (user "root") use sudo. Como no exemplo abaixo: `
+`*Para rodar comandos como administrador (user "root") use sudo. Como no exemplo abaixo: `
 
 ```bash
 sudo apt install xcowsay
@@ -109,7 +109,7 @@ sudo apt install xcowsay
 ##### Lidando com arquivos .txt
 <br />
 <br />
-Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
+Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.txt)**
 
 
 
@@ -177,6 +177,7 @@ Para abrir esse programa basta digitar no terminal = nano (nome do arquivo.txt)
 <br />
 <br />
 Diretórios importantes
+<br />
 
 |                  FUNÇÃO                  | DIRETÓRIO |
 | :--------------------------------------: | :-------: |
