@@ -106,7 +106,7 @@ sudo apt install xcowsay
 
 ### Capitulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
 
-##### Lidando com arquivos .txt
+#### Lidando com arquivos .txt
 <br />
 <br />
 Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.txt)**
@@ -176,7 +176,9 @@ Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.tx
 #### Apresentação dos comandos de diretórios do linux
 <br />
 <br />
+
 Diretórios importantes
+
 <br />
 
 |                  FUNÇÃO                  | DIRETÓRIO |
@@ -205,8 +207,6 @@ Diretórios importantes
 
 #### Praticando no terminal os comandos de diretórios e sistema
 <br />
-<br />
-
 
 |                  FUNÇÃO                  | COMANDOS DENTRO DO TERMINAL |
 | :--------------------------------------: | :-----------------: |
