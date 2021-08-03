@@ -1,6 +1,6 @@
 # Linux -  Introdução ao Sistema Operacional
 
-### Capitulo 1 - Introdução ao Linux e Configuração Inicial
+### Capítulo 1 - Introdução ao Linux e Configuração Inicial
 
 ##### Instalação e configuração
 
@@ -41,7 +41,7 @@ Clique em "**Download**" da versão mais recente
 <br />
 <br />
 
-### Capitulo 2 - Conhecendo o Terminal Linux e seus Atalhos
+### Capítulo 2 - Conhecendo o Terminal Linux e seus Atalhos
 
 ##### Conhecendo o terminal e primeiros comandos
 <br />
@@ -104,7 +104,7 @@ sudo apt install xcowsay
 <br />
 <br />
 
-### Capitulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
+### Capítulo 3 - Comandos para Manipulação de Arquivos, Textos e Redirecionamento
 
 #### Lidando com arquivos .txt
 <br />
@@ -171,7 +171,7 @@ Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.tx
 <br />
 <br />
 
-### Capitulo 4 - Diretórios do Linux e Comandos de Sistema
+### Capítulo 4 - Diretórios do Linux e Comandos de Sistema
 
 #### Apresentação dos comandos de diretórios do linux
 <br />
@@ -233,7 +233,7 @@ Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.tx
 
 
 
-### Capitulo 5 - Fundamentos de Rede e Comandos de Rede
+### Capítulo 5 - Fundamentos de Rede e Comandos de Rede
 
 #### O que são Redes, Protocolos e Interfaces de Rede
 
@@ -302,3 +302,300 @@ Para abrir esse programa basta digitar no terminal >> **nano (nome do arquivo.tx
   - Interface de Rede (Loopback)
 
     A interface loopback é um tipo especial de interface que permite fazer conexões com você mesmo, com ela, você pode testar vários programas de rede sem interferir em sua rede. O endereço padrão para o loopback é IP 127.0.0.1
+    
+    
+    
+    
+    #### Comando ifconfig
+
+<br />
+
+|          FUNÇÃO          |    COMANDOS NO TERMINAL    |
+| :----------------------: | :------------------------: |
+| Para saber IP da maquina |          ifconfig          |
+| Para instalar o ifconfig | sudo apt install net-tools |
+
+<br /><br />
+
+#### Comandos Hostname e ping
+
+<br />
+
+|                  FUNÇÃO                  |        COMANDO DENTRO DO TERMINAL        |
+| :--------------------------------------: | :--------------------------------------: |
+|        Nome do computador na rede        |                 hostname                 |
+|          Número de endereço IP           |               hostname -I                |
+|       Número de endereço loopback        |               hostname -i                |
+| Mostra informações completas do usuário  |                    w                     |
+| Mostra informações curtas do usuário: Nome, data e horário de como estamos logado |                   who                    |
+|     Mostra o nome do usuário logado      |                  whoami                  |
+| Mostra informações completas sobre um site |     whois ( whois www.pudim.com.br )     |
+|      Verifica se o host está ativo       | ping ( ping www.google.com.br ) (CTRL + Z para parar de pingar) |
+|       Mostra informações sobre DNS       |        diq ( diq www.google.com )        |
+|      Mostra somente o endereço DNS       |  dig +short (dig www.google.com +short)  |
+
+ <br />
+ <br />
+ 
+
+#### Comandos Traceroute e finger
+
+**Para traçar a rota da nossa rede local até um determinado host**
+
+<br />
+
+
+|                  FUNÇÃO                  |     COMANDO NO TERMINAL     |
+| :--------------------------------------: | :-------------------------: |
+|    Comando para instalar o traceroute    | sudo apt install traceroute |
+| Traça a rota de um host até outro host ( traceroute www.google.com ) |         traceroute          |
+
+<br />
+
+
+#### Para mostra toda a informação do usuário que esta logado em nosso host
+
+<br />
+
+
+|                  FUNÇÃO                  |   COMANDO NO TERMINAL   |
+| :--------------------------------------: | :---------------------: |
+|          Para instalar o finger          | sudo apt install finger |
+| Mostrar todos os usuários logados e informações, como nome, e tempo logado. |         finger          |
+
+<br />
+<br />
+<br />
+<br />
+
+### Capítulo 6 - Fuçando no Linux com comandos diversos
+
+#### Comandos history, alias e outras interações com arquivos .txt
+
+
+<br />
+
+
+|                  FUNÇÃO                  |    COMANDO NO TERMINAL     |
+| :--------------------------------------: | :------------------------: |
+| Menu Opções / Preferências / Criar Perfil / Mudar font e Tamanho | Aumentar letra do Terminal |
+| Apagar histórico de comandos utilizados no Terminal |         history -c         |
+| Dá um nome para outro comando (alias hh='history') |           alias            |
+| Conta o número de linhas de um arquivo: nl (nome do arquivo.txt) |             nl             |
+| Também conta o número de linhas, porém conta as linhas em branco: wc -l ( nome do arquivo.txt ) |           wc -l            |
+| Conta o número de palavras dentro de um arquivo txt: wc -w (nome do arquivo.txt) |           wc -w            |
+| Conta o número de bits do arquivo: wc -c (nome do arquivo) |           wc -c            |
+| Conta o número de caracteres: wc -m (nome do arquivo) |           wc -m            |
+| Mostra os arquivos e diretório ocultos (serão mostrados com um ponto antes: .local) |           ls -a            |
+|   Mostra os diretórios com o / no fim    |           ls -F            |
+| Comparar dois arquivos txt: cmp (nome do arquivo) (nome do arquivo) |            cmp             |
+| Gera outra diferença entre arquivos txt: diff (nome do arquivo) (nome do arquivo) |            diff            |
+| Organiza a saída do arquivo em ordem numérica |          sort -n           |
+| Organiza a saída do arquivo em ordem alfabética |            sort            |
+| Exibe o caminho do programa e seu manual |          whereis           |
+|       Exibe o caminho de programa        |           which            |
+|           Finaliza uma Sessão            |           logout           |
+
+<br />
+
+
+<br />
+
+
+#### Comandos last reboot, route, time, cowsay e cmatrix
+
+<br />
+
+
+|                  FUNÇÃO                  |   COMANDO NO TERMINAL    |
+| :--------------------------------------: | :----------------------: |
+| Para mostrar todas as informações sobre a reinicialização do sistema |       last reboot        |
+| Mostra todas as tabelas de roteamento e ip do Kernel |         route -n         |
+| Mostra o tempo de um processo leva para ser processado<br /> (time traceroute www.google.com) |           time           |
+| Mostra o tempo que o sistema está rodando |          uptime          |
+| Para instalar o cowsay (Desenho Vaquinha) | sudo apt install cowsay  |
+|     Mostra uma vaquinha com a frase      |   cowsay "Linux é Bom"   |
+| Mostra uma vaquinha com a frase (com outra opção de rosto) |    cowsay -d "Linux"     |
+| Mostra uma vaquinha com a frase (com outra opção de rosto) |    cowsay -g "Linux"     |
+|  Mostra vários outros tipos de animais   |        cowsay -f         |
+| Para instalar o cmatrix (Imita Efeito Filme Matrix) | sudo apt install cmatrix |
+| Para instalar xcowsay (Desenho Vaquinha 3D) | sudo apt install xcowsay |
+
+<br />
+
+<br />
+
+
+
+#### Comandos para desligar o sistema operacional
+
+<br />
+
+
+|                  FUNÇÃO                  | COMANDO NO TERMINAL |
+| :--------------------------------------: | :-----------------: |
+|      Desliga a máquina de imediato       |       init 0        |
+|      Desliga a máquina de imediato       |      telinit 0      |
+| Desliga a máquina, mas pede uma autenticação |        halt         |
+| Imprimi uma sequência de números: (seq 1 10) |         seq         |
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+
+### Capítulo 7 - Controle de Usuários, Grupos e Permissões
+
+#### Como Adicionar Usuários
+
+<br />
+
+|              FUNÇÃO              |      COMANDO NO TERMINAL       |
+| :------------------------------: | :----------------------------: |
+|    Para adicionar um usuário     |   adduser (nome do usuário)    |
+| Comando usado como administrador | sudo adduser (nome do usuário) |
+
+<br />
+
+ 
+
+#### Como Trocar de Usuário e Alterar sua Senha
+
+<br />
+
+|             FUNÇÃO              |   COMANDO NO TERMINAL    |
+| :-----------------------------: | :----------------------: |
+|     Para trocar de usuário      |   su (nome do usuário)   |
+| Para trocar para o usuário root |         sudo su          |
+|  Para trocar senha do usuário   | passwd (nome do usuário) |
+
+<br />
+
+<br />
+
+#### Como Exibir Informações de Login e Remover um Usuário
+
+<br />
+
+|                  FUNÇÃO                  |     COMANDO NO TERMINAL      |
+| :--------------------------------------: | :--------------------------: |
+| Para exibir informações de todos usuários do sistema |           lastlog            |
+| Para exibir uma listagem de entrada e saída dos usuários do sistema |             last             |
+| Para exibir o nome do usuário logado no sistema |           logname            |
+| Para exibir os identificadores do usuário |              id              |
+|      Para exibir todos os usuários       |       cat /etc/passwd        |
+|         Para remover um usuário          |  userdel (nome do usuário)   |
+| Para remover um usuário e a Pasta Pessoal do mesmo | userdel -r (nome do usuário) |
+
+
+
+
+<br />
+
+<br />
+
+#### Como Criar um Grupo e Gerenciar os Usuários
+
+**Grupos Permitem organizar os usuários e definir as permissões de acesso a arquivos e diretórios de forma mais fácil.**
+
+<br />
+
+|                  FUNÇÃO                  |           COMANDO NO TERMINAL            |
+| :--------------------------------------: | :--------------------------------------: |
+| Para visualizar todos os grupos do sistema |              cat /etc/group              |
+| Para exibir todos os grupos de um usuário |                  groups                  |
+|           Para criar um grupo            |      sudo addgroup (nome do grupo)       |
+|   Para adicionar um usuário a um grupo   |  adduser (nome usuário) (nome do grupo)  |
+|   Para adicionar um usuário a um grupo   | gpasswd -a (nome usuário) (nome do grupo) |
+|   Para remover um usuário de um grupo    | gpasswd -d (nome usuário) (nome do grupo) |
+|      Comando para remover um grupo       |                groupedel                 |
+
+<br />
+
+<br />
+
+#### Como Gerenciar Permissões em Diretórios e o que é o modo octal
+
+
+
+**Permissões em arquivos e diretórios servem para restringir acessos como: leitura, escrita e execução**
+
+<br />
+
+r = read (leitura)
+
+w - write (escrita)
+
+x - execution (execução)
+
+<br />
+
+<br />
+
+#### Verificar Permissões em um diretório
+
+<br />
+
+|                  FUNÇÃO                  | COMANDO NO TERMINAL |
+| :--------------------------------------: | :-----------------: |
+| Mostra informações detalhadas sobre a pasta atual e suas permissões |       ls -lh        |
+| Para mudar a permissão de um arquivo ou diretório |        chmod        |
+
+<br />
+
+d = (diretório) , - = (arquivo)
+
+(sequencia de 9 dígitos) sendo que a cada 3 dígitos são separados por grupo, é o símbolo (-) significa que não tem acesso >> **rwxr-xr-x** 
+
+1º grupo (dono/usuário) >> **rwx (permissões de r / w / x)**
+
+2º grupo (grupo) >> **r-x (permissões de r / x ) (não permitido w)**
+
+3° grupo (outros) >> **r-x (permissões de r / x) (não permitido w)**
+
+
+<br />
+
+<br />
+
+#### Modo Octal
+
+A máscara octal é composta por números sob a base 8 ou seja de 0 a 7 onde:
+
+O primeiro dígito representa o dono do ficheiro/diretório (u)
+
+O segundo dígito representa o grupo (g)
+
+O terceiro dígito representa os outros (o)
+
+As permissões são especificadas para cada grupo
+
+
+<br />
+
+|                  FUNÇÃO                  | COMANDO NO TERMINAL |
+| :--------------------------------------: | :-----------------: |
+|          Atribuição de r (read)          |          4          |
+|         Atribuição de w (write)          |          2          |
+|       Atribuição de x (execution)        |          1          |
+| Atribuição para não ter nenhuma permissão |          0          |
+
+
+
+<br />
+
+<br />
+
+#### Comando chmod
+
+**Para colocar mais de uma situação ao arquivo/diretório, devemos somar os valores do grupo em que queremos alterar.**
+
+Usando o comando >> **chmod 700 (nome do arquivo.txt)**  Essa atribuição significa que somente o grupo 1 (dono/usuário) tem permissão para r/w/x (read, write, execution)
+
+Usando o comando >> **chmod 100 (nome do arquivo.txt)**  Essa atribuição significa que somente o grupo 1 (dono/usuário) tem permissão para executar
+
+Usando o comando >> **chmod 755 (nome do arquivo.txt)**  Significa que o grupo 1 (dono/usuário) tem permissão r/w/x , que o grupo 2 (grupo) tem permissão r/-/x  e que o grupo 3 (outro) tem permissão r/-/x
