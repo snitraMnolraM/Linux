@@ -599,3 +599,94 @@ Usando o comando >> **chmod 700 (nome do arquivo.txt)**  Essa atribuição signi
 Usando o comando >> **chmod 100 (nome do arquivo.txt)**  Essa atribuição significa que somente o grupo 1 (dono/usuário) tem permissão para executar
 
 Usando o comando >> **chmod 755 (nome do arquivo.txt)**  Significa que o grupo 1 (dono/usuário) tem permissão r/w/x , que o grupo 2 (grupo) tem permissão r/-/x  e que o grupo 3 (outro) tem permissão r/-/x
+
+
+<br />
+
+<br /><br />
+
+<br />
+
+
+
+### Capitulo 8 - Compactação, Descompactação e Arquivamento
+
+#### Comandos gzip, zip e bzip2 
+
+<br />
+
+**Compactadores são programas que diminuem o tamanho de um arquivo ou diretório**
+
+<br />
+
+**Extensões:**
+
+As extensões identificam o tipo de um arquivo e o programa necessário para manipular o mesmo, dezenas de extensões identificam arquivos compactados, quando um arquivo é compactado, uma extensão é adicionada ao nome do arquivo.
+
+<br /><br />
+
+**Compactador Gzip**:
+
+|             FUNÇÃO             |       COMANDO NO TERMINAL       |
+| :----------------------------: | :-----------------------------: |
+|         Para compactar         |   gzip (nome do arquivo.txt)    |
+|       Para descompactar        | gunzip (nome do arquivo.txt.gz) |
+| Para compactar com taxa máxima |  gzip -9 (nome do arquivo.txt)  |
+
+
+
+<br /><br />
+
+**Compactador Zip:**
+
+|      FUNÇÃO      |           COMANDO NO TERMINAL            |
+| :--------------: | :--------------------------------------: |
+|  Para compactar  | zip (nome do arquivo.zip) (nome do arquivo.txt) |
+| Para descompactar |       unzip (nome do arquivo.zip)        |
+
+`*Pode colocar vários arquivos dentro de um único arquivo zipado`
+
+
+<br /><br />
+
+**Compactador Bzip2:**
+
+|      FUNÇÃO       |        COMANDO NO TERMINAL         |
+| :---------------: | :--------------------------------: |
+|  Para compactar   |    bzip2 (nome do arquivo.txt)     |
+| Para descompactar | bzip2 -d (nome do arquivo.txt.bz2) |
+
+<br /><br />
+
+**Comandos rar e tar**
+
+
+|       FUNÇÃO        |           COMANDO NO TERMINAL            |
+| :-----------------: | :--------------------------------------: |
+| Para instalar o rar |           sudo apt install rar           |
+|   Para compactar    | rar a (nome do arquivo.rar) (nome do arquivo.txt) |
+|  Para descompactar  |       rar -x (nome do arquivo.rar)       |
+
+ `*Esse comando necessita ser instalado na sua primeira utilização`
+
+<br /><br />
+
+**Arquivadores:**
+
+Um arquivador junta vários arquivos em um só, mas pode ser usado em conjunto com um compactador para armazenar arquivos compactados;
+
+
+|    FUNÇÃO     |           COMANDO NO TERMINAL            |
+| :-----------: | :--------------------------------------: |
+| Para arquivar | tar -cf (nome arquivo.tar) (nome arquivo.txt) (nome arquivo.txt) |
+
+<br /><br />
+
+**Esse arquivo pode ser compactado por outros compactadores.**
+
+|               FUNÇÃO               |           COMANDO NO TERMINAL            |
+| :--------------------------------: | :--------------------------------------: |
+|   Para descompactar arquivo.tar    |    tar -xvf (nome do arquivo.tar.gz)     |
+| Extrair o arquivo para outra pasta | tar -xvf (nome arquivo.tar.gz) -C ~/Pasta |
+
+
