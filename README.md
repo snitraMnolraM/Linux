@@ -689,4 +689,179 @@ Um arquivador junta vários arquivos em um só, mas pode ser usado em conjunto c
 |   Para descompactar arquivo.tar    |    tar -xvf (nome do arquivo.tar.gz)     |
 | Extrair o arquivo para outra pasta | tar -xvf (nome arquivo.tar.gz) -C ~/Pasta |
 
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+
+
+### Capitulo 9 - Gerenciamento de Pacotes
+
+#### Instalação, Atualização e Remoção de Pacotes
+
+<br />
+
+**Pacotes:**
+Pacotes são programas colocados dentro de um arquivo identificados por sua extensão, e incluem arquivos necessários para a instalação de programa
+Existem pacotes com extensão .deb , .rpm e outros
+
+<br />
+
+<br />
+
+**Gerenciadores:**
+Gerenciadores de pacotes são sistemas que possuem resolução automática de dependências entre pacotes, método fácil de instalação de pacotes
+
+<br />
+
+<br />
+
+**Gerenciador apt (nmap):**
+
+|          FUNÇÃO          |    COMANDO NO TERMINAL    |
+| :----------------------: | :-----------------------: |
+|     Para instalação      | sudo apt install (pacote) |
+| Para atualizar um pacote | sudo apt upgrade (pacote) |
+|  Para remover um pacote  | sudo apt remove (pacote)  |
+
+ 
+
+<br />
+
+<br />
+
+**Atualização de Sistema e o comando dpkg**
+
+|             FUNÇÃO              |      COMANDO NO TERMINAL       |
+| :-----------------------------: | :----------------------------: |
+| Para dar um update e um upgrade | sudo apt update && apt upgrade |
+
+ `*comando deve ser feito no root`
+
+<br />
+
+<br />
+
+**Sites de Pacotes:**
+[pkgs.org]()
+[rpm.pbone.net]()
+
+<br />
+
+<br />
+
+**Como instalar e remover pacotes do tipo .deb:**
+Entrar no site e baixar a versão do arquivo a ser instalado (.deb)
+Acessar a pasta onde foi salvo o arquivo (Usando o Terminal)
+
+|                  FUNÇÃO                  |      COMANDO NO TERMINAL       |
+| :--------------------------------------: | :----------------------------: |
+|         Para fazer a instalação          | sudo dpkg -i (nome do arquivo) |
+|      Para ver a descrição do pacote      |   sudo dpkg -I (pacote.deb)    |
+| Para remover o pacote do sistema - Lembrando que o nome do pacote e identificado no Package (docker-ce-cli) | sudo dpkf -r (nome do pacote)  |
+
+
+
+<br />
+
+<br />
+
+**Introdução ao Fedora**
+
+<br />
+
+Fedora
+Link para instalação: [getfedora.org/pt_BR/]()
+Versão Workstation = Versão para Desktop
+Adicionar a ISO baixada na seu programa de máquina virtual
+
+<br />
+
+<br />
+
+**Comandos rpm e yum**
+Como instalar e remover pacotes do tipo .rpm:
+Entrar no site e baixar a versão do arquivo a ser instalado (.rpm)
+Acessar a pasta onde foi salvo o arquivo (Usando o Terminal)
+
+<br />
+
+|         FUNÇÃO          |           COMANDO NO TERMINAL            |
+| :---------------------: | :--------------------------------------: |
+| Para fazer a instalação | sudo rpm -ivh --nodeps (nome do arquivo) |
+
+
+
+<br />
+
+<br />
+
+**Como atualizar o pacote .rpm:**
+
+<br />
+
+|         FUNÇÃO          |      COMANDO NO TERMINAL      |
+| :---------------------: | :---------------------------: |
+| Para atualizar o pacote | sudo rpm -U (nome do arquivo) |
+
+
+
+<br />
+
+<br />
+
+**Como remover o pacote .rpm:**
+
+<br />
+
+|        FUNÇÃO         |      COMANDO NO TERMINAL      |
+| :-------------------: | :---------------------------: |
+| Para remover o pacote | sudo rpm -e (nome do arquivo) |
+
+
+
+<br />
+
+<br />
+
+**Como instalar o pacote do tipo .yum:**
+
+<br />
+
+|         FUNÇÃO          |        COMANDO NO TERMINAL        |
+| :---------------------: | :-------------------------------: |
+| Para fazer a instalação | sudo yum install (nome do pacote) |
+
+`*Aqui é o nome do pacote e não o nome do arquivo baixado, pois ele baixa e instala o pacote via Terminal`
+
+<br />
+
+<br />
+
+**Como atualizar o pacote do tipo .yum:**
+
+<br />
+
+|          FUNÇÃO          |       COMANDO NO TERMINAL        |
+| :----------------------: | :------------------------------: |
+| Para fazer a atualização | sudo yum update (nome do pacote) |
+
+
+
+<br />
+
+<br />
+
+**Como remover o pacote do tipo .yum:**
+
+<br />
+
+|        FUNÇÃO         |       COMANDO NO TERMINAL        |
+| :-------------------: | :------------------------------: |
+| Para remover o pacote | sudo yum remove (nome do pacote) |
+
 
